@@ -1,0 +1,628 @@
+html, body .main_container{
+    min-height: 100vh;
+    overflow-y: visible;
+    overflow-x: hidden;
+    margin: 0;
+    color: white; 
+    overflow-y: visible;
+    overflow-x: hidden;
+    margin: 0;
+    color: white; 
+    position: relative; 
+    left: 20px; 
+    top: -5px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+  
+  .heading1 {
+    position: relative;
+    top: 20px;
+    left: 510px;
+  }
+  
+  .navflex {
+    width: 1500px;
+    position: relative;
+    top: -5px; 
+    left: -30px;
+  
+  }
+  
+  @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+  }
+  
+  .container{
+    font-size: 0; /* disable white space between inline block element */
+    margin-bottom: calc(var(--m) + var(--s) * 0.2885);
+  }
+  
+  .container div{
+    width: var(--s);
+    margin: var(--m);
+    height: calc(var(--s) * 1.1547);
+    display: inline-block;
+    font-size:initial;
+    clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
+    margin-bottom: calc(var(--m) - var(--s) * 0.2885);
+    background-color: #331055;
+    contain: content;
+  }
+  .container div img{
+    width: var(--s);
+    height: calc(var(--s) * 1.1547);
+    object-fit: cover;
+  }
+  
+  .container::before{
+    content: "";
+    width: calc(var(--s) / 2 + var(--m));
+    float: left;
+    height: 100%; 
+    shape-outside: repeating-linear-gradient(#0000 0 calc(var(--f) - 3px), #000 0 var(--f));
+  }
+  .navflex{
+    display: flex;
+    height: 55px;
+    background-color: #000;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .barbage{
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    width: 111px;
+  }
+  .barbage img{
+    height: 40px;
+    width: auto;
+    position: relative;
+    top: -3px;
+  }
+  #centersearch{
+    background-color: #262626;
+    color: white;
+    border: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    height: 30px;
+    width: 450px;
+    margin: 0px;
+    padding: 3px;
+    box-sizing: border-box;
+  }
+  .fa-search,.fa-user{
+    font-size: 20px !important;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    align-items: center;
+  }
+  #bababooey{
+    position:absolute;
+    margin-left: 425px;
+    cursor: pointer;
+    width: 25px;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 0px;
+    border:none;
+    background-color: #262626;
+  }
+  .garbage{
+    background-color: #262626;
+    height: 30px;
+    width: 450px;
+    box-shadow: 0px 0px 5px 3px white;
+    padding: 0px;
+    display: flex;
+    position: relative; 
+    left: -120px;
+  }
+  .narbage{
+    width: 111px;
+    margin-right: 2%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  /*card bodies*/
+  .card1 {
+    width: 300px;
+    height: 450px;
+    background-color:  black;
+    color: white;
+    position: relative; 
+    top: 50px;
+    left: 100px;
+    border-radius:  10px;
+    }
+  
+  .card2 {
+    width: 300px;
+    height: 450px;
+    background-color:  black;
+    color: white;
+    position: relative; 
+    top: -400px;
+    left: 470px;
+    border-radius:  10px;
+  }
+  .card3 {
+    width: 300px;
+    height: 450px;
+    background-color:  black;
+    color: white;
+    position: relative; 
+    top: -850px;
+    left: 830px;
+    border-radius:  10px;
+  }
+  
+  /*thumbnails*/
+  .thumbnail1 {
+    width: 260px;
+    height: 150px;
+    position: relative;
+    left: 16px;
+  }
+  
+  .thumbnail2 {
+    width: 270px;
+    height: 150px;
+    position: relative;
+    left: 15px;
+  }
+  
+  .thumbnail3 {
+    width: 270px;
+    height: 150px;
+    position: relative;
+    left: 15px;
+  }
+  
+  /*Game titles*/
+  .heading2 {
+    position: relative;
+    left: 45px;
+  }
+  
+  .heading3 {
+    position: relative; 
+    left: 85px;
+  }
+  
+  .heading4 {
+    position: relative;
+    left: 124px;
+  }
+  
+  /*Card texts*/
+  .text1 {
+    position: relative; 
+    left: 43px;
+  }
+  
+  .text2 {
+    position: relative; 
+    left: 50px;
+  }
+  
+  .text3 {
+    position: relative; 
+    left: 50px;
+  }
+   
+  /*Card buttons*/
+  .button1 {
+    box-shadow:inset 0px 1px 0px -50px #124d77;
+    background:linear-gradient(to bottom, #124d77 5%, #124d77 100%);
+    background-color:#124d77;
+    border-radius:3px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:13px;
+    padding:14px 25px;
+    text-decoration:none;
+    position: relative;
+    top: 40px;
+    left: 105px;
+  }
+  
+  
+  .button1:hover {
+    background:linear-gradient(to bottom, #124d77 5%,  turquoise 100%);
+    background-color:#124d77;
+  }
+  
+  .button1:active {
+    position:relative;
+    top:1px;
+  }
+  
+  .button2 {
+    box-shadow:inset 0px 1px 0px -50px #124d77;
+    background:linear-gradient(to bottom, #124d77 5%, #124d77 100%);
+    background-color:#124d77;
+     border-radius:3px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+     font-size:13px;
+    padding:14px 25px;
+    text-decoration:none;
+    position: relative;
+    top: 40px;
+    left: 110px;
+    margin: 0;
+  }
+  
+  .button2:hover {
+    background:linear-gradient(to bottom, #124d77 5%,  turquoise 100%);
+    background-color:#124d77;
+  }
+  
+  .button2:active {
+    position:relative;
+    top:1px;
+  }
+  
+  .button3 {
+    box-shadow: inset 0px 1px 0px -50px #124d77;
+    background: linear-gradient(to bottom, #124d77 5%, #124d77 100%);
+    background-color: #124d77;
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+    color:#ffffff;
+    font-family: Arial;
+    font-size:13px;
+    padding: 14px 25px;
+    text-decoration:none;
+    position: relative;
+    top: 40px;
+    left: 110px;
+  }
+  
+  .button3:hover {
+    background: linear-gradient(to bottom, #124d77 5%,  turquoise 100%);
+    background-color: #124d77;
+  }
+  
+  .button3:active {
+    position: relative;
+    top: 1px;
+  }
+  
+/*footer*/    
+  .footer{
+    background-color: #000;
+    color: #fff;
+    cursor: default;
+    width: 110%;
+    height: 215px;
+    position: relative;
+    left: -30px;
+    bottom: -110px;
+  }
+  .footer .footer_container{
+padding: 20px;
+padding-bottom: 0px;
+display: grid;
+grid-template-columns: auto auto auto auto;
+  }
+  
+  .footer ul li, .footer a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    margin: 12px 0px 0px 0px;
+  }
+  .footer h3{
+    margin: 20px 0px 25px 0px;
+  }
+  .footer h4{
+    margin-bottom: 5px;
+  }
+  .footer .merk img{
+    width: 5rem;
+    height: auto;
+    margin: 5px 20px 5px 20px;
+  }
+  .footer hr{
+    border: 0;
+    height: 1;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #fff;
+  }
+  .footer .voorwaarden p{
+    font-size: 12px;
+    margin: 10px;
+    flex-grow: 8;
+  }
+  .footer .voorwaarden, .media{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .media{
+    position: relative;
+    left: 50%;
+    width: fit-content;
+    gap: 10px;
+  }
+  .footer .media img{
+    width: 20px;
+  }
+  
+  
+  /* sidebar */
+  .dropdownGContent {
+    display: none;
+    position: absolute;
+    margin-left: 7rem;
+    width: 100%;
+    box-shadow: 0 0 6px rgba(69, 0, 134, 0.276);
+    background: rgba(69, 0, 134, 0.276);
+  }
+  .genreDropdown:hover .dropdownGContent {
+    display: block;
+  }
+  .dropdownGContent li {
+    
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  .dropdownGContent li button{
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff;
+    background: transparent;
+    border: none;
+  }
+  .sidebar{
+    position: relative;
+    top:  -1440px;
+    left: -30px;
+    width: 3.6rem;
+    height: 70vh;
+    box-shadow: 0 0 6px rgba(69, 0, 134, 0.276);
+    background: rgba(69, 0, 134, 0.276);
+  }
+  .dropdown{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 6px rgba(69, 0, 134, 0.276);
+    background: rgba(69, 0, 134, 0.276);
+    padding: 1rem;
+  }
+  .sidebar .sidebarItems .items li, .dropdown{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  .items .li, .items a, .genreDropdown{
+    margin-top: 16px;
+    font-size: 1rem;
+    color: #fff;
+  }
+  .sidebar .items li:hover, .dropdown:hover{
+      text-shadow: 0 0 6px rgba(255, 255, 255, 0.47);
+  }
+  #slider{
+    color: #fff;
+  }
+  .sidebar i{
+      cursor: pointer;
+  }
+  .sidebar ul{
+    padding: 0;
+  }
+  /* contactpagina */
+  .contactContent{
+    height: 70vh;
+    width: 100%;
+    background-color: #000;
+  }
+  .contactContent{
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: auto;
+  }
+  .contactContent h1{
+    height: fit-content;
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+  }
+  .contactContent p a{
+    text-decoration: none;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+  }
+  .contactContent p{
+    margin: 2rem ;
+  }
+  
+    
+  @media only screen and (max-width: 640px){
+    .barbage{
+        display: none;
+    }
+    .garbage{
+         margin-left: 10vw;
+    }
+    .garbage,#centersearch{
+         width:60vw;
+    }
+    #bababooey{
+         margin-left: calc(60vw - 25px);
+    }
+
+    .heading1 {
+        position: relative;
+        left: 80px;
+    }
+
+   .card1 {
+        width: 250px;
+        left: 80px;
+    }
+
+   .card2 {
+        width: 250px;
+        left: 80px;
+        top: 100px;
+   }
+
+   .card3 {
+        width: 250px;
+        left: 80px;
+        top: 150px;
+   }
+
+   .thumbnail1, .thumbnail2 , .thumbnail3 {
+        width: 215px;
+        position: relative; 
+        left: 18px;
+   }
+
+   .heading2 {
+        position: relative; 
+        left: 30px;
+   }
+
+   .heading3 {
+        position: relative;
+        left: 60px;
+   }
+   
+   .heading4 {
+        position: relative; 
+        left: 100px;
+   }
+
+   .text1 {
+    position: relative;
+    left: 26px;
+}
+
+.text2 {
+    position: relative;
+    left: 20px;
+}
+
+.text3 {
+    position: relative;
+    left: 20px;
+}
+
+.button1, .button2, .button3 {
+    position: relative;
+    left:  85px;
+}
+  }
+  
+  
+  @media only screen and (min-width: 640px){
+    .main {
+      display:flex;
+      --s: 128px;  /* size  */
+      --m: 1px;    /* margin */
+      --f: calc(var(--s) * 1.732 + 4 * var(--m) - 1px); 
+    }
+    }
+    @media only screen and (max-width: 640px){
+      .main {
+        display:flex;
+        --s: 100px;  /* size  */
+        --m: 1px;    /* margin */
+        --f: calc(var(--s) * 1.732 + 4 * var(--m) - 1px); 
+      }
+    }
+    
+    @media only screen and (max-width: 640px) {
+      .footer .voorwaarden p{
+        font-size: 2vw;
+        margin: 6px;
+        flex-grow: 8;
+      }
+      .footer h3{
+        margin: 5px 0px 7px 0px;
+        font-size: 2vw;
+      }
+      .footer h4{
+        text-align: center;
+        font-size: 3vw;
+      }
+      .footer .footer_container{
+        padding: 5px;
+        padding-bottom: 0px;
+      }
+      .footer ul li, .footer a{
+        margin: 5px 0px 0px 0px;
+        font-size: 2vw;
+      }
+      .footer ul{
+        padding-left: 5px;
+      }
+      .footer .merk img{
+        width: 15vw;
+      height: auto;
+      margin: 5px 20px 5px 20px;
+      }
+      .media{
+        left: 10%;
+      }
+    }
+    
+    
+    /* contactpagina */
+    .contactContent{
+      height: 70vh;
+      width: 100%;
+      background-color: #000;
+    }
+    .contactContent{
+      text-align: center;
+      justify-content: center;
+      display: grid;
+      grid-template-rows: auto;
+    }
+    .contactContent h1{
+      height: fit-content;
+      width: 100%;
+      color: #fff;
+      cursor: pointer;
+    }
+    .contactContent p a{
+      text-decoration: none;
+      padding-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+    }
+    .contactContent p{
+      margin: 2rem ;
+    }
