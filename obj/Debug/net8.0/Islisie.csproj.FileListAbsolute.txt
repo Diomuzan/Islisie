@@ -1,0 +1,15 @@
+C:\Projects\Islisie\bin\Debug\net8.0\Islisie.exe
+C:\Projects\Islisie\bin\Debug\net8.0\Islisie.deps.json
+C:\Projects\Islisie\bin\Debug\net8.0\Islisie.runtimeconfig.json
+C:\Projects\Islisie\bin\Debug\net8.0\Islisie.dll
+C:\Projects\Islisie\bin\Debug\net8.0\Islisie.pdb
+C:\Projects\Islisie\obj\Debug\net8.0\Islisie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Islisie\obj\Debug\net8.0\Islisie.AssemblyInfoInputs.cache
+C:\Projects\Islisie\obj\Debug\net8.0\Islisie.AssemblyInfo.cs
+C:\Projects\Islisie\obj\Debug\net8.0\Islisie.csproj.CoreCompileInputs.cache
+C:\Projects\Islisie\obj\Debug\net8.0\Islisie.sourcelink.json
+C:\Projects\Islisie\obj\Debug\net8.0\Islisie.dll
+C:\Projects\Islisie\obj\Debug\net8.0\refint\Islisie.dll
+C:\Projects\Islisie\obj\Debug\net8.0\Islisie.pdb
+C:\Projects\Islisie\obj\Debug\net8.0\Islisie.genruntimeconfig.cache
+C:\Projects\Islisie\obj\Debug\net8.0\ref\Islisie.dll
